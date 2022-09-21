@@ -24,10 +24,12 @@ html {
   overflow-y: scroll;
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 section {
   padding: 2rem 9%;
+  margin-bottom: 7rem;
 }
 .stars {
   color: var(--green);
@@ -526,6 +528,11 @@ header .icons #menu-bars {
 .loader-container.fade-out {
   top: -110%;
   opacity: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* media queries */
